@@ -1,0 +1,3 @@
+#!/bin/bash
+chown --from=guillaume beety hello#!/bin/bash
+chown --from=guillaume beety hello
