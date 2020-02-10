@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# pkill porcess
+kill -1 "$(pgrep -f 7-highlander)"
