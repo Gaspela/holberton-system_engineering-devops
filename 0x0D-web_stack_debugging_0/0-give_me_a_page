@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install apache, docker
+# Install apache, docker, curl: echo "Hello Holberton" > /var/www/html/listen8080.html - echo "ServerName localhost" >> /etc/apache2.conf
 sudo apt-get -y update
 sudo apt-get -y install apache2
 sudo service apache2 start
