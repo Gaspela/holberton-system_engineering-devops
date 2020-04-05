@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Force reset 9) SIGKILL
+sed -i -e 's/8080/80/g' /etc/nginx/sites-enabled/default
+pkill -9 nginx
