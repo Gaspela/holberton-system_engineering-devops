@@ -20,7 +20,7 @@ if __name__ == '__main__':
             csv_writer.writerow([argv[1], username, task.get('completed'),
                                  task.get('title')])
     # print
-"""     print('Employee {} is done with tasks({}/{}):'.format(name, done, total))
+""" print('Employee {} is done with tasks({}/{}):'.format(name, done, total))
     for task in data_json:
         if task.get('completed'):
             print('\t {}'.format(task.get('title'))) """
