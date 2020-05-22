@@ -1,6 +1,6 @@
 ### Summary of issues established during the emergency.
 
-Initially, the service provided by our server was inactive for 5 hours on May 22, 2020, between 5pm and 10pm Pacific time, during this time a large number of requests made by users were denied and notified to each user with a error 503 in response to a web server that is not working correctly, during this period we try to restore the server service by applying different configurations to try to achieve its correct operation, minutes later we learn that several power lines and wiring are broken due to a strong gale that occurred during those same hours in the afternoon, the company in charge of solving these damages was immediately requested to be present on the spot to resolve said problem.
+Initially, the service provided by our server was inactive for 1 hours on May 22, 2020, between 5pm and 10pm Pacific time, during this time a large number of requests made by users were denied and notified to each user with a error 503 in response to a web server that is not working correctly, during this period we try to restore the server service by applying different configurations to try to achieve its correct operation, minutes later we learn that several power lines and wiring are broken due to a strong gale that occurred during those same hours in the afternoon, the company in charge of solving these damages was immediately requested to be present on the spot to resolve said problem.
 
 ### Schedule or Timeline.
 
