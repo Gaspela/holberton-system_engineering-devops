@@ -1,414 +1,181 @@
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<h1 class="gap">0x00. Shell, basics</h1>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<h1 class="gap">System engineering & DevOps</h1>
-<div class="panel-group" role="tablist" aria-multiselectable="true" id="my-current-projects-list-blocks">
+<article id="description" class="gap formatted-content">
+    <p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/205/image.jpg" alt="" style=""></p>
 
-    						<div class="panel panel-default">
-    							<div class="panel-heading" role="tab" id="heading-block-7">
-    								<h4 class="panel-title">
-    									<a class="collapsed" role="button" data-toggle="collapse" href="#collapse-block-7" aria-expanded="false" aria-controls="collapseTwo">
-    										System engineering &amp; DevOps - Bash
-    									</a>
-    								</h4>
-    							</div>
-    							<div id="collapse-block-7" class="panel-collapse collapse" data-curriculum-id="1" role="tabpanel" aria-labelledby="heading-block-7" aria-expanded="false" style="height: 0px;">
-    								<ul class="list-group">
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<h2>Resources</h2>
 
-    											<code>205</code>
-    											<a href="/projects/205">0x00. Shell, basics</a>
-    												<em>[Sep 11 19...Sep 12 19]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<p><strong>Read or watch</strong>:</p>
 
-    											<code>207</code>
-    											<a href="/projects/207">0x01. Shell, permissions</a>
-    												<em>[Sep 12 19...Sep 13 19]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<ul>
+<li><a href="/rltoken/pn2_LGNuA1yFY7zy3CQmig" title="What Is &quot;The Shell&quot;?" target="_blank">What Is “The Shell”?</a> </li>
+<li><a href="/rltoken/Hh8elGgCpj--6othR7S7GQ" title="Navigation" target="_blank">Navigation</a> </li>
+<li><a href="/rltoken/84xsZOempqy5I7ZkueeIsg" title="Looking Around" target="_blank">Looking Around</a> </li>
+<li><a href="/rltoken/Jp1c4V3hJiGBuVzYCtnQKw" title="A Guided Tour" target="_blank">A Guided Tour</a> </li>
+<li><a href="/rltoken/wFwFXKQmSpmxYyvHvCIC-Q" title="Manipulating Files" target="_blank">Manipulating Files</a> </li>
+<li><a href="/rltoken/Aq3NVLBhgnQS6NYtHI8i4w" title="Working With Commands" target="_blank">Working With Commands</a> </li>
+<li><a href="/rltoken/RohkjGiQtMHgPfj0N_k1Bw" title="Reading Man pages" target="_blank">Reading Man pages</a> </li>
+<li><a href="/rltoken/0HvJ2B_wSl6Oyshcn-OHrg" title="Keyboard shortcuts for Bash" target="_blank">Keyboard shortcuts for Bash</a> </li>
+<li><a href="https://wiki.ubuntu.com/LTS" target="_blank">LTS</a></li>
+<li><a href="/rltoken/ketzZf-802Fb-mSGkyPa4w" title="Shebang" target="_blank">Shebang</a> </li>
+</ul>
 
-    											<code>208</code>
-    											<a href="/projects/208">0x02. Shell, I/O Redirections and filters</a>
-    												<em>[Sep 14 19...Sep 16 19]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    											</span>
+<p><strong>man or help</strong>:</p>
 
-    											<code>209</code>
-    											<a href="/projects/209">0x03. Shell, init files, variables and expansions</a>
-    												<em>[Sep 16 19...Sep 17 19]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<ul>
+<li><code>cd</code></li>
+<li><code>ls</code></li>
+<li><code>pwd</code></li>
+<li><code>less</code></li>
+<li><code>file</code></li>
+<li><code>ln</code></li>
+<li><code>cp</code></li>
+<li><code>mv</code></li>
+<li><code>rm</code></li>
+<li><code>mkdir</code></li>
+<li><code>type</code></li>
+<li><code>which</code></li>
+<li><code>help</code></li>
+<li><code>man</code></li>
+</ul>
 
-    											<code>251</code>
-    											<a href="/projects/251">0x04. Loops, conditions and parsing</a>
-    												<em>[Feb 7 20...Feb 8 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<h2>Learning Objectives</h2>
 
-    											<code>255</code>
-    											<a href="/projects/255">0x05. Processes and signals</a>
-    												<em>[Feb 10 20...Feb 11 20]</em>
-    													-
-    													</li>
-    								</ul>
-    							</div>
-    						</div>
+<p>At the end of this project, you are expected to be able to <a href="/rltoken/VCja0ArJiqJAMEzE-01dSA" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
+<h3>General</h3>
 
+<ul>
+<li>What does RTFM mean?</li>
+<li>What is a Shebang</li>
+</ul>
 
-    						<div class="panel panel-default">
-    							<div class="panel-heading" role="tab" id="heading-block-14">
-    								<h4 class="panel-title">
-    									<a class="collapsed" role="button" data-toggle="collapse" href="#collapse-block-14" aria-expanded="false" aria-controls="collapseTwo">
-    										System engineering &amp; DevOps - Scripting
-    									</a>
-    								</h4>
-    							</div>
-    							<div id="collapse-block-14" class="panel-collapse collapse" data-curriculum-id="1" role="tabpanel" aria-labelledby="heading-block-14">
-    								<ul class="list-group">
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<h3>What is the Shell</h3>
 
-    											<code>&nbsp;78</code>
-    											<a href="/projects/78">0x06. Regular expression</a>
-    												<em>[Feb 24 20...Feb 25 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<ul>
+<li>What is the shell</li>
+<li>What is the difference between a terminal and a shell</li>
+<li>What is the shell prompt</li>
+<li>How to use the history (the basics)</li>
+</ul>
 
-    											<code>269</code>
-    											<a href="/projects/269">0x15. API</a>
-    												<em>[May 4 20...May 5 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<h3>Navigation</h3>
 
-    											<code>314</code>
-    											<a href="/projects/314">0x16. API advanced</a>
-    												<em>[May 7 20...May 8 20]</em>
-    													-
-    													</li>
-    								</ul>
-    							</div>
-    						</div>
+<ul>
+<li>What do the commands or built-ins <code>cd</code>, <code>pwd</code>, <code>ls</code> do </li>
+<li>How to navigate the filesystem</li>
+<li>What are the . and .. directories</li>
+<li>What is the working directory, how to print it and how to change it</li>
+<li>What is the root directory</li>
+<li>What is the home directory, and how to go there</li>
+<li>What is the difference between the root directory and the home directory of the user root</li>
+<li>What are the characteristics of hidden files and how to list them</li>
+<li>What does the command <code>cd -</code> do</li>
+</ul>
 
+<h3>Looking Around</h3>
 
+<ul>
+<li>What do the commands <code>ls</code>, <code>less</code>, <code>file</code> do</li>
+<li>How do you use options and arguments with commands</li>
+<li>Understand the ls long format and how to display it</li>
+<li><a href="/rltoken/Jp1c4V3hJiGBuVzYCtnQKw" title="A Guided Tour" target="_blank">A Guided Tour</a></li>
+<li>What does the <code>ln</code> command do</li>
+<li>What do you find in the most common/important directories</li>
+<li>What is a symbolic link</li>
+<li>What is a hard link</li>
+<li>What is the difference between a hard link and a symbolic link</li>
+</ul>
 
-    						<div class="panel panel-default">
-    							<div class="panel-heading" role="tab" id="heading-block-36">
-    								<h4 class="panel-title">
-    									<a class="collapsed" role="button" data-toggle="collapse" href="#collapse-block-36" aria-expanded="false" aria-controls="collapseTwo">
-    										System engineering &amp; DevOps - Networking
-    									</a>
-    								</h4>
-    							</div>
-    							<div id="collapse-block-36" class="panel-collapse collapse" data-curriculum-id="1" role="tabpanel" aria-labelledby="heading-block-36">
-    								<ul class="list-group">
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<h3>Manipulating Files</h3>
 
-    											<code>259</code>
-    											<a href="/projects/259">0x07. Networking basics #0</a>
-    												<em>[Feb 24 20...Feb 26 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    											</span>
+<ul>
+<li>What do the commands <code>cp</code>, <code>mv</code>, <code>rm</code>, <code>mkdir</code> do</li>
+<li>What are wildcards and how do they work</li>
+<li>How to use wildcards</li>
+</ul>
 
-    											<code>285</code>
-    											<a href="/projects/285">0x08. Networking basics #1</a>
-    												<em>[Feb 24 20...Feb 26 20]</em>
-    													-
-    													</li>
-    								</ul>
-    							</div>
-    						</div>
+<h3>Working with Commands</h3>
 
+<ul>
+<li>What do <code>type</code>, <code>which</code>, <code>help</code>, <code>man</code> commands do</li>
+<li>What are the different kinds of commands</li>
+<li>What is an alias</li>
+<li>When do you use the command help instead of man</li>
+</ul>
 
+<h3>Reading Man Pages</h3>
 
-    						<div class="panel panel-default">
-    							<div class="panel-heading" role="tab" id="heading-block-12">
-    								<h4 class="panel-title">
-    									<a class="collapsed" role="button" data-toggle="collapse" href="#collapse-block-12" aria-expanded="false" aria-controls="collapseTwo">
-    										System engineering &amp; DevOps - Web stack
-    									</a>
-    								</h4>
-    							</div>
-    							<div id="collapse-block-12" class="panel-collapse collapse" data-curriculum-id="1" role="tabpanel" aria-labelledby="heading-block-12">
-    								<ul class="list-group">
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<ul>
+<li>How to read a man page</li>
+<li>What are man page sections</li>
+<li>What are the section numbers for User commands, System calls and Library functions</li>
+</ul>
 
-    											<code>302</code>
-    											<a href="/projects/302">0x09. Web infrastructure design</a>
-    												<em>[Mar 5 20...Mar 9 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    											</span>
+<h3>Keyboard Shortcuts for Bash</h3>
 
-    											<code>266</code>
-    											<a href="/projects/266">0x0C. Web server</a>
-    												<em>[Mar 24 20...Mar 26 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<ul>
+<li>Common shortcuts for Bash</li>
+</ul>
 
-    											<code>275</code>
-    											<a href="/projects/275">0x0F. Load balancer</a>
-    												<em>[Apr 3 20...Apr 4 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<h3>LTS</h3>
 
-    											<code>276</code>
-    											<a href="/projects/276">0x10. HTTPS SSL</a>
-    												<em>[Apr 6 20...Apr 13 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    											</span>
+<ul>
+<li>What does <code>LTS</code> mean?</li>
+</ul>
 
-    											<code>298</code>
-    											<a href="/projects/298">0x11. What happens when you type holbertonschool.com in your browser and press Enter</a>
-    												<em>[Apr 6 20...Apr 13 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<h2>Requirements</h2>
 
-    											<code>280</code>
-    											<a href="/projects/280">0x14. Mysql</a>
-    												<em>[Apr 23 20...Apr 24 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<h3>General</h3>
 
-    											<code>281</code>
-    											<a href="/projects/281">0x18. Webstack monitoring</a>
-    												<em>[May 19 20...May 21 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    											</span>
+<ul>
+<li>Allowed editors: <code>vi</code>, <code>vim</code>, <code>emacs</code></li>
+<li>All your scripts will be tested on Ubuntu 14.04 LTS</li>
+<li>All your scripts should be exactly two lines long (<code>$ wc -l file</code> should print 2)</li>
+<li>All your files should end with a new line (<a href="http://unix.stackexchange.com/questions/18743/whats-the-point-in-adding-a-new-line-to-the-end-of-a-file/18789">why?</a>)</li>
+<li>The first line of all your files should be exactly <code>#!/bin/bash</code></li>
+<li>A <code>README.md</code> file at the root of the <code>holberton-system_engineering-devops</code> repo, containing a description of the repository</li>
+<li>A <code>README.md</code> file, at the root of the folder of <em>this</em> project, describing what each script is doing</li>
+<li>You are not allowed to use backticks, <code>&amp;&amp;</code>, <code>||</code> or <code>;</code></li>
+<li>All your scripts must be executable. Use this command: <code>chmod u+x file</code>. We will see later what it means.</li>
+</ul>
 
-    											<code>311</code>
-    											<a href="/projects/311">0x1A. Application server</a>
-    												<em>[May 25 20...May 29 20]</em>
-    													-
-    													</li>
-    								</ul>
-    							</div>
-    						</div>
+<h2>More Info</h2>
 
+<p><i>Example of line count and first line</i></p>
 
+<pre><code>julien@ubuntu:/tmp$ wc -l 12-file_type 
+2 12-file_type
+julien@ubuntu:/tmp$ head -n 1 12-file_type 
+#!/bin/bash
+julien@ubuntu:/tmp$ 
+</code></pre>
 
-    						<div class="panel panel-default">
-    							<div class="panel-heading" role="tab" id="heading-block-11">
-    								<h4 class="panel-title">
-    									<a class="collapsed" role="button" data-toggle="collapse" href="#collapse-block-11" aria-expanded="false" aria-controls="collapseTwo">
-    										System engineering &amp; DevOps - Security
-    									</a>
-    								</h4>
-    							</div>
-    							<div id="collapse-block-11" class="panel-collapse collapse" data-curriculum-id="1" role="tabpanel" aria-labelledby="heading-block-11">
-    								<ul class="list-group">
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<p>In order to test your scripts, you will need to use this command: <code>chmod u+x file</code>. We will see later what does <code>chmod</code> mean and do, but you can have a look at <code>man chmod</code> if you are curious.</p>
 
-    											<code>244</code>
-    											<a href="/projects/244">0x0B. SSH</a>
-    												<em>[Mar 23 20...Mar 25 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
+<p><i>Example</i></p>
 
-    											<code>284</code>
-    											<a href="/projects/284">0x13. Firewall</a>
-    												<em>[Apr 6 20...Apr 13 20]</em>
-    													-
-    													</li>
-    								</ul>
-    							</div>
-    						</div>
+<pre><code>julien@ubuntu:/tmp$ ls
+12-file_type
+lll
+julien@ubuntu:/tmp$ ls -la lll
+-rw-rw-r-- 1 julien julien 15 Sep 19 21:05 lll
+julien@ubuntu:/tmp$ cat lll
+#!/bin/bash
+ls
+julien@ubuntu:/tmp$ ls -l lll
+-rw-rw-r-- 1 julien julien 15 Sep 19 21:05 lll
+julien@ubuntu:/tmp$ chmod u+x lll # you do not have to understand this yet
+julien@ubuntu:/tmp$ ls -l lll
+-rwxrw-r-- 1 julien julien 15 Sep 19 21:05 lll
+julien@ubuntu:/tmp$ ./lll
+12-file_type
+lll
+julien@ubuntu:/tmp$ 
+</code></pre>
 
+  </article>
 
-
-    						<div class="panel panel-default">
-    							<div class="panel-heading" role="tab" id="heading-block-16">
-    								<h4 class="panel-title">
-    									<a class="collapsed" role="button" data-toggle="collapse" href="#collapse-block-16" aria-expanded="false" aria-controls="collapseTwo">
-    										System engineering &amp; DevOps - On call
-    									</a>
-    								</h4>
-    							</div>
-    							<div id="collapse-block-16" class="panel-collapse collapse" data-curriculum-id="1" role="tabpanel" aria-labelledby="heading-block-16">
-    								<ul class="list-group">
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    											</span>
-
-    											<code>294</code>
-    											<a href="/projects/294">0x19. Postmortem</a>
-    												<em>[May 19 20...May 25 20]</em>
-    													-
-    													</li>
-    								</ul>
-    							</div>
-    						</div>
-
-
-
-    						<div class="panel panel-default">
-    							<div class="panel-heading" role="tab" id="heading-block-21">
-    								<h4 class="panel-title">
-    									<a class="collapsed" role="button" data-toggle="collapse" href="#collapse-block-21" aria-expanded="false" aria-controls="collapseTwo">
-    										System engineering &amp; DevOps - CI/CD
-    									</a>
-    								</h4>
-    							</div>
-    							<div id="collapse-block-21" class="panel-collapse collapse" data-curriculum-id="1" role="tabpanel" aria-labelledby="heading-block-21">
-    								<ul class="list-group">
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
-
-    											<code>292</code>
-    											<a href="/projects/292">0x0A Configuration management</a>
-    												<em>[Mar 23 20...Mar 24 20]</em>
-    													-
-    													</li>
-    								</ul>
-    							</div>
-    						</div>
-
-
-
-    						<div class="panel panel-default">
-    							<div class="panel-heading" role="tab" id="heading-block-37">
-    								<h4 class="panel-title">
-    									<a class="collapsed" role="button" data-toggle="collapse" href="#collapse-block-37" aria-expanded="false" aria-controls="collapseTwo">
-    										System engineering &amp; DevOps - Web stack debugging
-    									</a>
-    								</h4>
-    							</div>
-    							<div id="collapse-block-37" class="panel-collapse collapse" data-curriculum-id="1" role="tabpanel" aria-labelledby="heading-block-37">
-    								<ul class="list-group">
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
-
-    											<code>265</code>
-    											<a href="/projects/265">0x0D. Web stack debugging #0</a>
-    												<em>[Mar 24 20...Mar 26 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
-
-    											<code>271</code>
-    											<a href="/projects/271">0x0E. Web stack debugging #1</a>
-    												<em>[Apr 3 20...Apr 5 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
-
-    											<code>287</code>
-    											<a href="/projects/287">0x12. Web stack debugging #2</a>
-    												<em>[Apr 6 20...Apr 13 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
-
-    											<code>293</code>
-    											<a href="/projects/293">0x17. Web stack debugging #3</a>
-    												<em>[May 19 20...May 21 20]</em>
-    													-
-    													</li>
-    										<li class="list-group-item">
-    											<span class="check_completion">
-    													<i class="fa fa-check-circle"></i>
-    											</span>
-
-    											<code>313</code>
-    											<a href="/projects/313">0x1B. Web stack debugging #4</a>
-    												<em>[May 25 20...May 29 20]</em>
-    													-
-    													</li>
-    								</ul>
-    							</div>
-    						</div>
-
-
-
-    		</div>
+## Author
+* **Samir millan** - [Gaspela04](https://github.com/Gaspela04)
